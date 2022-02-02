@@ -17,7 +17,7 @@ func return_multiple(one int, second int) (int, string) {
 		return 0, err.Error()
 	}
 
-	a := one + second
+	var a = one + second
 	const b = "Add exit!"
 
 	return a, b
